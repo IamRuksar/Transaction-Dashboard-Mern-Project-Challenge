@@ -1,0 +1,126 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .transactions-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 5px solid white;
+    border-radius: 100px;
+  }
+  
+  .transactions-table th, .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #fadb75;
+    border: 3px solid black;
+  }
+  
+  .transactions-table th {
+    /* background-color: #f0f0f0; */
+    /* background-color: #fff; */
+    background-color: #fadb75;
+    /* background-color: #ffcc00; */
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .pagination button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .statistics {
+    margin-top: 20px;
+  }
+  
+  .statistics h3 {
+    margin-bottom: 10px;
+  }
+  
+  .statistics p {
+    margin-bottom: 10px;
+  }
+  
+  .bar-chart {
+    margin-top: 20px;
+  }
+  
+  .bar-chart svg {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .bar-chart rect {
+    fill: skyblue;
+  }
+  
+  .bar-chart text {
+    font-size: 16px;
+    fill: black;
+  }
+  
+  .pie-chart {
+    margin-top: 20px;
+  }
+  
+  .pie-chart svg {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .pie-chart path {
+    stroke: black;
+    stroke-width: 2;
+  }
+  
+  .pie-chart text {
+    font-size: 14px;
+    fill: black;
+  }
+
+  /* ---------------------------------- */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    background-color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
